@@ -1,0 +1,10 @@
+x=lune(:,1);
+y=lune(:,2);
+plot(x,y)
+hold on
+
+x1=terre(:,1);
+y1=terre(:,2);
+plot(x1,y1)
+legend('lune','terre');
+hold off

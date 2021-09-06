@@ -1,0 +1,16 @@
+x=lune_euler(:,1);
+y=lune_euler(:,2);
+plot(x,y)
+
+
+x1=lune_rk2(:,1);
+y1=lune_rk2(:,2);
+plot(x1,y1)
+
+x2=lune_rk4(:,1);
+y2=lune_rk4(:,2);
+plot(x2,y2)
+
+x3=lune_diff(:,1);
+y3=lune_diff(:,2);
+plot(x3,y3)
